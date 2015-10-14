@@ -47,7 +47,7 @@ public class TicTacToeUIInfinite extends JFrame{
     panel = new JPanel();
     
     //Labels for Statsu of the game and Row/Col display for map. Panel to organize map&panel display on frame
-    jlbStatus = new JLabel("First Plyaer's turn");
+    jlbStatus = new JLabel("First Player's turn"); //Fixed a minor typo on this line Jamie 10/14/15
     jlbRowColMap = new JLabel("Row:    Column: ");
     organize = new JPanel();
         
